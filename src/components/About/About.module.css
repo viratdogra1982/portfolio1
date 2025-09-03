@@ -13,10 +13,13 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;         /* Centers the text inside the element */
+  margin: 0 auto;             /* Centers the element itself if it has a set width */
+  display: block;
 }
 
 .content {

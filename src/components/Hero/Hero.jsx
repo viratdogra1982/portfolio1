@@ -16,7 +16,7 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src="https://media.licdn.com/dms/image/v2/D4D03AQFhGqDGtCVvXw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726611221563?e=1732147200&v=beta&t=5oIB4F9yC76WW4dbl8vhBUWnAj4x_aczLVBmlOC3B_M"
+        src="https://media.licdn.com/dms/image/v2/D4D03AQFhGqDGtCVvXw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726611221579?e=1759968000&v=beta&t=ZblD8-UIwpV64AFD2-HN6fgkEt--BO1T4aB9QAnh67k"
         alt="Hero image of me"
         className={styles.heroImg}
       />

@@ -9,41 +9,63 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
+          width={50}
+          height={250}
+          src="https://cdn-icons-png.flaticon.com/512/7119/7119246.png"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
-              </p>
-            </div>
-          </li>
+</li>
+
+<div className={styles.aboutItemText}>
+   <img
+      src="https://copilot.microsoft.com/th/id/BCO.fe7bf228-68ce-4a5c-b9b9-007d20288521.png"
+      width={90}
+      height={90}
+      alt="Cursor icon"
+      className={styles.aboutItemImage}
+    />
+      <h1>Frontend Developer</h1>
+      <h3>
+        I'm a frontend developer with experience in building responsive
+        and optimized sites
+      </h3>
+    </div>
+
+          <div className={styles.aboutItemContent}>
+    <img
+      src="https://img.freepik.com/premium-vector/backend-icon_933463-10712.jpg"
+      width={90}
+      height={90}
+      alt="Cursor icon"
+      className={styles.aboutItemImage}
+    />
+    <div className={styles.aboutItemText}>
+      <h2>Backend Developer</h2>
+      <p>
+        Backend development refers to the server-side logic and infrastructure that powers websites and applications behind the scenes.
+      </p>
+    </div>
+  </div>
+          <div className={styles.aboutItemContent}>
+    <img
+      src="https://img.freepik.com/premium-vector/backend-icon_933463-10712.jpg"
+      width={90}
+      height={90}
+      alt="Cursor icon"
+      className={styles.aboutItemImage}
+    />
+    <div className={styles.aboutItemText}>
+      <h2>UI/UX DESIGNER</h2>
+      <div>
+        <div></div>
+      <p>
+       A UI/UX Designer is a creative professional who designs digital experiences that are both visually appealing and user-friendly.
+      </p>
+      </div>
+    </div>
+  </div>
         </ul>
       </div>
     </section>
